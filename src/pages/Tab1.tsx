@@ -1,22 +1,22 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab1.css';
+import Home from '../components/Home';
+// import './Home.css
 
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
+      {/* <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle>首頁</IonTitle>
         </IonToolbar>
-      </IonHeader>
+      </IonHeader> */}
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
+        {/* <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 123</IonTitle>
+            <IonTitle size="large">首頁</IonTitle>
           </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+        </IonHeader> */}
+        <Home name="Tab 1 page" />
       </IonContent>
     </IonPage>
   );
