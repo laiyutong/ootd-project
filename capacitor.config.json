@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ootd-project",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
