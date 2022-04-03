@@ -5,17 +5,17 @@ import Home from '../components/Home';
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      {/* <IonHeader>
+      <IonHeader>
         <IonToolbar>
           <IonTitle>首頁</IonTitle>
         </IonToolbar>
-      </IonHeader> */}
+      </IonHeader>
       <IonContent fullscreen>
-        {/* <IonHeader collapse="condense">
+        <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">首頁</IonTitle>
           </IonToolbar>
-        </IonHeader> */}
+        </IonHeader>
         <Home name="Tab 1 page" />
       </IonContent>
     </IonPage>
